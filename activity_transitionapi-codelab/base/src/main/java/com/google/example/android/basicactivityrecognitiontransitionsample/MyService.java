@@ -301,9 +301,9 @@ public class MyService extends Service {
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this, TRANS_CHANNEL_ID)
                 .setOngoing(false)
-                .setSmallIcon(R.drawable.notification_icon)
+                .setSmallIcon(R.drawable.transition_detected)
                 .setContentTitle("Transition detected")
-                .setContentText("Hello World!")
+                .setContentText("PhD is fun!")
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)
                 .setCategory(NotificationCompat.CATEGORY_MESSAGE)
                 // Set the intent that will fire when the user taps the notification

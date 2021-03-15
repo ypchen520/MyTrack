@@ -1,0 +1,2 @@
+Transition: WALKING (EXIT)   10:17:29
+Transition: STILL (ENTER)   10:17:29

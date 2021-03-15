@@ -52,6 +52,10 @@
         "source": "/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
+        "merged": "/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/build/intermediates/res/merged/debug/drawable_transition_detected.xml.flat",
+        "source": "/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/res/drawable/transition_detected.xml"
+    },
+    {
         "merged": "/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
