@@ -17,20 +17,20 @@
 
 * Select the testing scenario
 * Enter the transition type (as the filename)
-* Tap on CREAT LOG FILE
+* Tap on ```CREAT LOG FILE```
 * Start performing the activity
 * When a activity transition is detected, the user will receive a notification with the title **Transition detected** and a lightning icon
 * Tap on the notification (**This has to be done before saving to the file**)
-* Tap on SAVE LOG TO FILE
+* Tap on ```SAVE LOG TO FILE```
 
 ## Logger
 
 * There are two buttons in the home page of the app
-  * CREAT LOG FILE
+  * ```CREAT LOG FILE```
     * This button can be used to specify the name of the current log file, which should be the transition type
       * The app automatically attach the current time to the specified filename in the format of **MM-dd-HH-mm-ss**
     * Upon creating the file, the current log will be cleared to start a new log for the upcoming transitions
-  * SAVE LOG TO FILE
+  * ```SAVE LOG TO FILE```
     * This button can be used to save the current log
     * The log file should be created when this button is tapped on, otherwise, the user will receive a message saying: "Filename not specified!"
     * After being saved to the file, the current log will be cleared
