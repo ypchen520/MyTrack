@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.google.example.android.basicactivityrecognitiontransitionsample",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "PROCESSED_RES"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 1,
+        "versionName": "1.0",
+        "outputFile": "base-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "resources-debug.ap_",
+      "properties": {
+        "packageId": "com.google.example.android.basicactivityrecognitiontransitionsample",
+        "split": "",
+        "minSdkVersion": "26"
+      }
+    }
+  ]
+}

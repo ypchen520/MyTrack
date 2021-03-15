@@ -1,0 +1,99 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.google.example.android.basicactivityrecognitiontransitionsample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml
+10
+11    <!-- Required to access activity recognition. -->
+12    <!-- TODO: Add both activity recognition permissions to the manifest. -->
+13    <!-- Required for 28 and below. -->
+14    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" /> <!-- Required for 29+. -->
+14-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:9:5-94
+14-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:9:22-91
+15    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+15-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:10:5-79
+15-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:11:5-77
+16-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:11:22-74
+17
+18    <application
+18-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:13:5-41:19
+19        android:allowBackup="true"
+19-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:14:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] /home/yupeng/.gradle/caches/transforms-2/files-2.1/76f2b6439d16df60df3177021482ee5a/core-1.1.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:icon="@mipmap/ic_launcher"
+23-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:15:9-43
+24        android:label="@string/app_name"
+24-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:16:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:17:9-54
+26        android:supportsRtl="true"
+26-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:18:9-35
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme" >
+28-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:19:9-40
+29        <service
+29-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:21:9-24:47
+30            android:name="com.google.example.android.basicactivityrecognitiontransitionsample.MyService"
+30-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:22:13-38
+31            android:enabled="true"
+31-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:23:13-35
+32            android:exported="true" />
+32-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:24:13-36
+33
+34        <activity
+34-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:26:9-29:59
+35            android:name="com.google.example.android.basicactivityrecognitiontransitionsample.PermissionRationalActivity"
+35-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:27:13-55
+36            android:label="@string/title_activity_permission_rational"
+36-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:28:13-71
+37            android:theme="@style/AppTheme.NoActionBar" />
+37-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:29:13-56
+38        <activity
+38-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:30:9-40:20
+39            android:name="com.google.example.android.basicactivityrecognitiontransitionsample.MainActivity"
+39-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:31:13-41
+40            android:label="@string/app_name"
+40-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:32:13-45
+41            android:theme="@style/AppTheme.NoActionBar" >
+41-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:33:13-56
+42            android:launchMode="singleTop">
+43            <intent-filter>
+43-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:35:13-39:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:36:17-69
+44-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:36:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:38:17-77
+46-->/home/yupeng/SPRING2021/MyTrack/ContextBasedNotification/activity_transitionapi-codelab/base/src/main/AndroidManifest.xml:38:27-74
+47            </intent-filter>
+48        </activity>
+49        <activity
+49-->[com.google.android.gms:play-services-base:17.0.0] /home/yupeng/.gradle/caches/transforms-2/files-2.1/a1794986c7a3c4986f9feb2359005476/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+50            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+50-->[com.google.android.gms:play-services-base:17.0.0] /home/yupeng/.gradle/caches/transforms-2/files-2.1/a1794986c7a3c4986f9feb2359005476/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+51            android:exported="false"
+51-->[com.google.android.gms:play-services-base:17.0.0] /home/yupeng/.gradle/caches/transforms-2/files-2.1/a1794986c7a3c4986f9feb2359005476/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+52            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+52-->[com.google.android.gms:play-services-base:17.0.0] /home/yupeng/.gradle/caches/transforms-2/files-2.1/a1794986c7a3c4986f9feb2359005476/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+53
+54        <meta-data
+54-->[com.google.android.gms:play-services-basement:17.0.0] /home/yupeng/.gradle/caches/transforms-2/files-2.1/294cc5ecc9001f3e94c034cd71f64fdf/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+55            android:name="com.google.android.gms.version"
+55-->[com.google.android.gms:play-services-basement:17.0.0] /home/yupeng/.gradle/caches/transforms-2/files-2.1/294cc5ecc9001f3e94c034cd71f64fdf/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+56            android:value="@integer/google_play_services_version" />
+56-->[com.google.android.gms:play-services-basement:17.0.0] /home/yupeng/.gradle/caches/transforms-2/files-2.1/294cc5ecc9001f3e94c034cd71f64fdf/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+57    </application>
+58
+59</manifest>
