@@ -11,7 +11,7 @@
 
 ## Goals
 
-* The goal of this app is to test the Google's Transition API in [our testing scenarios](/testing-scenarios/Testing-scenarios.docx)
+* The goal of this app is to test the Google's Transition API in [our testing scenarios](./testing-scenarios/Testing-scenarios.docx)
 
 ## Notes
 
