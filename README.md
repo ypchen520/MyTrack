@@ -1,2 +1,7 @@
 # MyTrack
-Random notes and ideas for MyTrack Project at UF.
+
+Random notes, ideas, and implementation for MyTrack Project at UF.
+
+## emotion-aware notification
+
+* EMMA: An Emotion-Aware Wellbeing Chatbot
