@@ -249,6 +249,10 @@ public class MainActivity extends AppCompatActivity {
         Path filePath = Paths.get(getApplicationContext().getFilesDir().toString(), logFilename);
 //        Path filePath = Paths.get(getApplicationContext().getExternalFilesDir().toString(), logFilename);
         System.out.println(filePath.toString());
+        if(logContent.length() == 0){
+            Toast.makeText(getApplicationContext(), "Current log is empty!", Toast.LENGTH_SHORT).show();
+            return;
+        }
         if(logFilename.length() != 0) {
             File logFile = new File(filePath.toString());
             if (!logFile.exists()) {

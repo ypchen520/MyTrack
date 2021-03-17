@@ -248,7 +248,8 @@ public class MyService extends Service {
 //                        prevActivityTransitionType = event.getTransitionType();
 //                    }
                     if(event.getActivityType() != prevActivity){
-                        sendOnChannel();
+                        sendOnChannel("Transition: " + toActivityString(event.getActivityType()) +
+                                " (" + toTransitionType(event.getTransitionType()) + ")");
                         prevActivity = event.getActivityType();
                     }
                 }
@@ -291,7 +292,7 @@ public class MyService extends Service {
         }
     }
 
-    public void sendOnChannel(){
+    public void sendOnChannel(String stat){
         Intent intent = new Intent(this, MainActivity.class);
         intent.putExtra("activityLogInfo", logInfo);
         System.out.println("[SendOnChannel] logInfo: "+logInfo);
@@ -303,7 +304,7 @@ public class MyService extends Service {
                 .setOngoing(false)
                 .setSmallIcon(R.drawable.transition_detected)
                 .setContentTitle("Transition detected")
-                .setContentText("PhD is fun!")
+                .setContentText(stat)
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)
                 .setCategory(NotificationCompat.CATEGORY_MESSAGE)
                 // Set the intent that will fire when the user taps the notification
