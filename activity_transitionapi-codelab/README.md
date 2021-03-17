@@ -16,7 +16,7 @@
 ## Testing flow
 
 * Select the testing scenario
-* Enter the transition type (as the filename)
+* Enter the transition type or scenario number (as the filename)
 * Tap on ```CREAT LOG FILE```
 * Start performing the activity
 * When a activity transition is detected, the user will receive a notification with the title **Transition detected** and a lightning icon
