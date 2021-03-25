@@ -33,6 +33,7 @@
   * ```SAVE LOG TO FILE```
     * This button can be used to save the current log
     * The log file should be created when this button is tapped on, otherwise, the user will receive a message saying: "Filename not specified!"
+    * If the log is empty, the user will receive a message saying: "Current log is empty"
     * After being saved to the file, the current log will be cleared
 * The logged files can be found in the following way in Android Studio
   * View -> Tool Windows -> Device File Explorer
