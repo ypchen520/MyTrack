@@ -19,7 +19,7 @@
 * Enter the transition type or scenario number (as the filename)
 * Tap on ```CREAT LOG FILE```
 * Start performing the activity
-* When a activity transition is detected, the user will receive a notification with the title **Transition detected** and a lightning icon
+* When an activity transition is detected, the user will receive a notification with the title **Transition detected** and a lightning icon
 * Tap on the notification (**This has to be done before saving to the file**)
 * Tap on ```SAVE LOG TO FILE```
 
